@@ -1,0 +1,19 @@
+{
+  "name": "chat-bot",
+  "version": "1.0.0",
+  "description": "A twitch chat bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Anders",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
