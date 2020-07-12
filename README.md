@@ -6,6 +6,7 @@ The best Twitch chat bot ever... maybe? (no, it's not)
 
 - `!dice` -> rolles a dice
 - `!joke` -> tells a random dad joke [from the icanhazdadjoke api](https://icanhazdadjoke.com/)
+- `!lurk` -> tells the streamer that you are afk
 - `!ping` -> says pong
 - `!rps <rock|paper|scissors>` plays rps against you
 - `!so <twitch-username>` gives a shoutout to the person you want
