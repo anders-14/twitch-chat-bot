@@ -1,16 +1,15 @@
 # Twitch Chat Bot
 
-The best twitch bot ever... maybe? (no, it's not)
-
-The bot is still a work in progress, more stuff will be added
+The best Twitch chat bot ever... maybe? (no, it's not)
 
 ## Commands 
 
 - `!dice` -> rolles a dice
-- `!joke` -> tells a random dad joke
+- `!joke` -> tells a random dad joke [from the icanhazdadjoke api](https://icanhazdadjoke.com/)
 - `!ping` -> says pong
 - `!rps <rock|paper|scissors>` plays rps against you
 - `!so <twitch-username>` gives a shoutout to the person you want
+- more to come...
 
 ## Running the bot yourself
 
@@ -24,7 +23,22 @@ Add the channel(s) you want to run the bot in, to the `config.json`
 
 You can also add the prefix you want to use to the `config.json`
 
-### Scripts
+### Scripts to run the bot locally
 
-- `npm start` -> start the bot
-- `npm run dev` -> run the bot in developer mode with auto reload
+Installs dependencies:
+
+```
+npm install 
+```
+
+Start the bot:
+
+```
+npm start
+```
+
+Run the bot in development mode with hot-reloading:
+
+```
+npm run dev
+```
