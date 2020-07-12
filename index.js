@@ -1,6 +1,7 @@
 const tmi = require('tmi.js');
 const fs = require('fs');
 require('dotenv').config();
+const config = require('./config.json');
 
 const client = new tmi.Client({
   options: { debug: true },
@@ -12,10 +13,10 @@ const client = new tmi.Client({
     username: process.env.BOT_USERNAME,
     password: process.env.BOT_PASSWORD,
   },
-  channels: ['anders14_'],
+  channels: config.channels,
 });
 
-const prefix = '!';
+const prefix = config.prefix;
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 const commands = {};
 
