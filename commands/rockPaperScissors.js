@@ -21,6 +21,7 @@ const rules = {
 
 module.exports = {
   cmd: 'rps',
+  async: false,
   exec: (args, tags) => {
     if (args.length > 0) {
       const chatterMove = args[0].toLowerCase();
