@@ -5,14 +5,21 @@ The best Twitch chat bot ever... maybe? (no, it's not)
 ## Commands 
 
 - `!dice` -> rolles a dice
-- `!joke` -> tells a random dad joke [from the icanhazdadjoke api](https://icanhazdadjoke.com/)
+- `!joke` -> tells a random dad joke 
 - `!lurk` -> tells the streamer that you are afk
 - `!num-trivia <num>` -> returns a trivia about the entered number, or a random number if empty or invalid
 - `!ping` -> responds with pong
 - `!rps <rock|paper|scissors>` -> plays rps against you
 - `!so <twitch-username>` -> gives a shoutout to the person you want
 - `!today` -> responds with trivia about the current day
+- `!year-trivia <year>` returns a trivia about the given year, or a random year if empty or invalid
 - more to come...
+
+## Api's used
+
+Dad jokes from https://icanhazdadjoke.com/
+
+Number trivia from http://numbersapi.com/
 
 ## Running the bot yourself
 
