@@ -15,7 +15,7 @@ The best Twitch chat bot ever... maybe? (no, it's not)
 - `!year-trivia <year>` returns a trivia about the given year, or a random year if empty or invalid
 - more to come...
 
-## Api's used
+## Apis used
 
 Dad jokes from https://icanhazdadjoke.com/
 
