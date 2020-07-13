@@ -39,7 +39,7 @@ client.on('message', (channel, tags, message, self) => {
   // If the command exists in the commands execute it
   if (commands[cmd]) {
     if (commands[cmd].async) {
-      const msg = commands[cmd].exec(args, tags)
+      commands[cmd].exec(args, tags)
         .then(res => client.say(channel, res));
     } else {
       const msg = commands[cmd].exec(args, tags);

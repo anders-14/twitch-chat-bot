@@ -10,6 +10,7 @@ The best Twitch chat bot ever... maybe? (no, it's not)
 - `!ping` -> responds with pong
 - `!rps <rock|paper|scissors>` -> plays rps against you
 - `!so <twitch-username>` -> gives a shoutout to the person you want
+- `!today` -> responds with trivia about the current day
 - more to come...
 
 ## Running the bot yourself
