@@ -23,15 +23,15 @@ Number trivia from http://numbersapi.com/
 
 ## Running the bot yourself
 
-Start of by cloning the repo
+- Start of by cloning the repo
 
-Create an `.env` file and add your bots details to the file, like shown in the `.env.sample`
+- Create an `.env` file and add your bots details to the file, like shown in the `.env.sample`
 
-You can generate an oauth-token for your bot at https://twitchapps.com/tmi/
+- You can generate an oauth-token for your bot at https://twitchapps.com/tmi/
 
-Add the channel(s) you want to run the bot in, to the `config.json`
+- Add the channel(s) you want to run the bot in, to the `config.json`
 
-You can also add the prefix you want to use to the `config.json`
+- You can also add the prefix you want to use to the `config.json`
 
 ### Scripts to run the bot locally
 
