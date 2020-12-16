@@ -11,7 +11,7 @@ module.exports = {
         return fetch(`http://numbersapi.com/${num}?default=No+trivia+for+${num}`)
           .then(res => res.text());
       }
-    }  
+    }
     return fetch('http://numbersapi.com/random/')
       .then(res => res.text());
   }

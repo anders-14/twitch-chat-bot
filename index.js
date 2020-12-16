@@ -22,7 +22,7 @@ const commands = {};
 
 for (const file of commandFiles) {
   const command = require(`./commands/${file}`);
-  commands[command.cmd] = command; 
+  commands[command.cmd] = command;
 }
 
 client.connect();
@@ -47,3 +47,4 @@ client.on('message', (channel, tags, message, self) => {
     }
   }
 });
+
